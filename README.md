@@ -25,6 +25,25 @@ Open the bundled demo report: [examples/demo_report.html](examples/demo_report.h
 
 ## Install
 
+### From skills.sh
+
+Install the repository's skills with the open Agent Skills CLI:
+
+```bash
+npx skills add holooooo/codex-skill-usage
+```
+
+To install only this skill, use the repository URL and select
+`codex-usage-insights` when prompted:
+
+```bash
+npx skills add https://github.com/holooooo/codex-skill-usage
+```
+
+The same source can be installed for Codex, Claude Code, Cursor, and other
+compatible agents. After installation, restart the agent if it does not pick
+up the new skill immediately.
+
 Paste this prompt into a Codex session:
 
 ```text
