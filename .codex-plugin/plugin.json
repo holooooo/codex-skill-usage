@@ -1,0 +1,38 @@
+{
+  "name": "codex-usage-insights",
+  "description": "Analyze local Codex session logs and render an auditable HTML usage dashboard.",
+  "version": "1.0.0",
+  "author": {
+    "name": "holooooo",
+    "url": "https://github.com/holooooo"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/holooooo/codex-skill-usage",
+  "repository": "https://github.com/holooooo/codex-skill-usage",
+  "keywords": [
+    "codex",
+    "usage-analytics",
+    "skill-adoption",
+    "local-first",
+    "dashboard"
+  ],
+  "skills": "./codex-usage-insights/",
+  "interface": {
+    "displayName": "Codex Usage Insights",
+    "shortDescription": "Analyze Codex usage and build animated reports.",
+    "longDescription": "A local-first Codex skill that scans session JSONL files, matches explicit skill mentions, summarizes activity by project and day, and renders a portable HTML dashboard with JSON data. It ignores system and tool records and never publishes local logs.",
+    "developerName": "holooooo",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/holooooo/codex-skill-usage",
+    "defaultPrompt": [
+      "Analyze my recent Codex usage and generate an HTML report.",
+      "Show which Codex skills I used in the last 30 days.",
+      "Find installed skills with no observed usage in a selected date range."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
