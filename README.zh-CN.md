@@ -17,6 +17,23 @@
 
 ## Install
 
+### 通过 skills.sh 安装
+
+使用开放的 Agent Skills CLI 安装仓库中的 skill：
+
+```bash
+npx skills add holooooo/codex-skill-usage
+```
+
+如果只需要当前 skill，可在提示中选择 `codex-usage-insights`：
+
+```bash
+npx skills add https://github.com/holooooo/codex-skill-usage
+```
+
+同一份 skill 源码也可用于 Codex、Claude Code、Cursor 等兼容 agent。
+安装后如果 agent 没有立即识别，请重启 agent。
+
 把下面这段 prompt 直接发给 Codex 会话：
 
 ```text
