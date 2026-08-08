@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.coverage
+.pytest_cache/
+
+# A report generated from the repository root can contain private metadata.
+/report.html
+/report-data.json

@@ -1,0 +1,7 @@
+{"timestamp":"2026-08-06T09:00:00Z","type":"session_meta","payload":{"session_id":"demo-session-1","cwd":"/demo/codex-usage-insights"}}
+{"timestamp":"2026-08-06T09:01:00Z","type":"response_item","payload":{"role":"user","content":[{"type":"input_text","text":"Use $codex-usage-insights to summarize this week's Codex activity."}]}}
+{"timestamp":"2026-08-06T09:02:00Z","type":"response_item","payload":{"role":"assistant","content":[{"type":"output_text","text":"Using codex-usage-insights, I found a small test window with two active projects."}]}}
+{"timestamp":"2026-08-07T11:20:00Z","type":"response_item","payload":{"role":"user","content":[{"type":"input_text","text":"Use the codex-usage-insights skill and compare the trace-lens mentions."}]}}
+{"timestamp":"2026-08-07T11:21:00Z","type":"response_item","payload":{"role":"assistant","content":[{"type":"output_text","text":"The trace-lens skill appeared in one session."}]}}
+{"timestamp":"2026-08-08T14:10:00Z","type":"response_item","payload":{"role":"user","content":[{"type":"input_text","text":"Run /codex-usage-insights for the final daily snapshot."}]}}
+{"timestamp":"2026-08-08T14:11:00Z","type":"response_item","payload":{"role":"assistant","content":[{"type":"output_text","text":"The report is ready. No quiet-index mention was found."}]}}

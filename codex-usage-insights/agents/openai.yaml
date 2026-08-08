@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Usage Insights"
+  short_description: "Analyze Codex usage and build animated reports"
+  default_prompt: "Analyze recent Codex usage and generate a static HTML report with never-used skills."

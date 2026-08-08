@@ -1,0 +1,214 @@
+{
+  "period": {
+    "start": "2026-08-01T00:00:00Z",
+    "end": "2026-08-08T00:00:00Z",
+    "label": "2026-08-01  ->  2026-08-08"
+  },
+  "generated_at": "2026-08-08T15:58:47.655146Z",
+  "totals": {
+    "sessions": 2,
+    "messages": 6,
+    "distinct_skills": 2,
+    "available_skills": 3,
+    "unused_skills": 1,
+    "active_days": 2,
+    "projects": 2
+  },
+  "skill_usage": [
+    {
+      "name": "codex-usage-insights",
+      "mentions": 5,
+      "sessions": 2,
+      "first_seen": "2026-08-06T09:01:00Z",
+      "last_seen": "2026-08-07T11:20:00Z"
+    },
+    {
+      "name": "trace-lens",
+      "mentions": 4,
+      "sessions": 2,
+      "first_seen": "2026-08-07T08:01:00Z",
+      "last_seen": "2026-08-07T11:21:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-0eeaaf49843a",
+      "name": "codex-usage-insights",
+      "label": "codex-usage-insights",
+      "sessions": 1,
+      "messages": 4,
+      "skill_mentions": 5,
+      "distinct_skills": 2
+    },
+    {
+      "id": "project-b9f3fb344d60",
+      "name": "tools",
+      "label": "tools",
+      "sessions": 1,
+      "messages": 2,
+      "skill_mentions": 4,
+      "distinct_skills": 2
+    }
+  ],
+  "unused_skills": [
+    "quiet-index"
+  ],
+  "timeline": [
+    {
+      "date": "2026-08-01",
+      "sessions": 0,
+      "messages": 0,
+      "skills": 0,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        }
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "sessions": 0,
+      "messages": 0,
+      "skills": 0,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        }
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "sessions": 0,
+      "messages": 0,
+      "skills": 0,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        }
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "sessions": 0,
+      "messages": 0,
+      "skills": 0,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        }
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "sessions": 0,
+      "messages": 0,
+      "skills": 0,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        }
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "sessions": 1,
+      "messages": 2,
+      "skills": 1,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 1,
+          "messages": 2,
+          "skills": {
+            "codex-usage-insights": 2
+          }
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        }
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "sessions": 2,
+      "messages": 4,
+      "skills": 2,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 1,
+          "messages": 2,
+          "skills": {
+            "codex-usage-insights": 1,
+            "trace-lens": 2
+          }
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 1,
+          "messages": 2,
+          "skills": {
+            "codex-usage-insights": 2,
+            "trace-lens": 2
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "sessions": 0,
+      "messages": 0,
+      "skills": 0,
+      "projects": {
+        "project-0eeaaf49843a": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        },
+        "project-b9f3fb344d60": {
+          "sessions": 0,
+          "messages": 0,
+          "skills": {}
+        }
+      }
+    }
+  ],
+  "sources": {
+    "files_scanned": 2,
+    "files_in_window": 2
+  }
+}

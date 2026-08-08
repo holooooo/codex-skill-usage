@@ -1,0 +1,3 @@
+{"timestamp":"2026-08-07T08:00:00Z","type":"session_meta","payload":{"session_id":"demo-session-2","cwd":"/demo/codex-usage-insights/tools"}}
+{"timestamp":"2026-08-07T08:01:00Z","type":"response_item","payload":{"role":"user","content":[{"type":"input_text","text":"Use $trace-lens to inspect the trend, then use $codex-usage-insights."}]}}
+{"timestamp":"2026-08-07T08:02:00Z","type":"response_item","payload":{"role":"assistant","content":[{"type":"output_text","text":"trace-lens found the sample trend; codex-usage-insights will render it."}]}}
